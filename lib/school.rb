@@ -19,8 +19,8 @@ class School
   
   def sort(grade, student)
     school_list = {}
-    grade.each do |x, y|
-      if x 
+    roster.each do |x, y|
+      roster[x] 
   end
   
 end
