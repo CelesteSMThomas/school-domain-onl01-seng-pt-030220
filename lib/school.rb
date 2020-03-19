@@ -18,7 +18,9 @@ class School
   end
   
   def sort(grade, student)
-    roster[grade][student.sort!]
+    school_list = {}
+    grade.each do |x, y|
+      if x 
   end
   
 end
